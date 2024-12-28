@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>郭乃恩 Kuo, Nai-En</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .photo {
+            text-align: center;
+        }
+
+        .photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px; /* Adds indentation */
+        }
+
+        ul ul {
+            list-style-type: disc; /* Adds bullet points for nested lists */
+            margin-left: 20px; /* Indents nested lists further */
+        }
+
+        li {
+            margin-bottom: 5px; /* Adds space between list items */
+        }
+
+        .skills span {
+            display: inline-block;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #007bff;
+            margin-right: 10px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .resume-link {
+            font-size: 1.5em; /* Makes the text larger */
+            font-weight: bold; /* Makes the text bold */
+            color: #007bff; /* Adds a noticeable color */
+            text-decoration: none; /* Removes underline */
+            display: inline-block; /* Allows for padding adjustments */
+            padding: 10px 20px; /* Adds padding around the link */
+            border: 2px solid #007bff; /* Adds a border to make it stand out */
+            border-radius: 5px; /* Rounds the edges */
+            background-color: #f0f8ff; /* Adds a subtle background color */
+            transition: all 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .resume-link:hover {
+            background-color: #007bff; /* Changes background on hover */
+            color: white; /* Changes text color on hover */
+            border-color: #0056b3; /* Changes border color on hover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>郭乃恩 Kuo, Nai-En</h1>
+</header>
+
+<div class="container">
+    <!-- Links -->
+    <section class="links">
+        <h2>Links</h2>
+        <li><i class="fas fa-home"></i> This page <a  href="https://imgradually.github.io/"> https://imgradually.github.io/ </a></li>
+        <li><i class="fab fa-youtube"></i> YouTube <a href="https://youtube.com/@naienkuo"> https://youtube.com/@naienkuo </a></li>
+        <li><i class="fab fa-github"></i> GitHub <a href="https://github.com/imgradually"> https://github.com/imgradually </a></li>
+        <li><i class="fab fa-linkedin"></i> LinkedIn <a href="https://www.linkedin.com/in/lionkuo/"> https://www.linkedin.com/in/lionkuo/ </a></li>
+        <li><i class="far fa-envelope"></i> Email <a href="mailto:n1kuo@ucsd.edu"> n1kuo@ucsd.edu </a></li>
+    </section>
+    
+    <p><i class="far fa-file-pdf"></i> 
+        <a href="./Nai_En_Kuo_Resume.pdf" target="_blank" class="resume-link">View My Resume (PDF)</a>
+    </p>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Master of Science in Computer Science and Engineering</strong>, University of California, San Diego 2023-2024</li>
+            <li><strong>(Imcomplete) Master of Science in Network Engineering</strong>, National Yang Ming Chiao Tung University, 2021-2022</li>
+            <li><strong>Bachelor of Science in Computer Science</strong>, National Chiao Tung University, 2017-2021</li>
+        </ul>
+    </section>
+
+    <!-- Job Experience -->
+    <section>
+        <h2>Experiences</h2>
+        <ul>
+            <li><strong>5G Wireless Software Engineer Intern</strong>, MediaTek, 2024
+                <ul>
+                    <li>Developed and maintained a backend service for an internal web application that streamlined the tracking of customer report resolutions for 5G modem system issues.</li>
+                    <li>Designed and implemented 40+ features and APIs using Python Flask and MongoDB to enhance workflow efficiency.</li>
+                    <li>Optimized database structures and query pipelines, reducing response times by 67%, improving the user experience for the internal platform.</li>
+                    <li>Collaborated with cross-functional teams to ensure scalability, reliability, and seamless deployment of the service.</li>
+                    <li>Studied 3GPP spec mainly focused on NAS layer protocol for Mobility Management and Network Selection in 4G and 5G network.</li>
+                </ul>
+            </li>
+            <li><strong>Software Engineer Intern</strong>, Taiwan Semiconductor Manufacturing Company, 2022
+                <ul>
+                    <li>Migrated legacy systems to Kubernetes-based environments, leveraging CI/CD pipelines for seamless deployments.</li>
+                    <li>Developed a Java Spring Boot service to optimize reporting processes, doubling data processing speeds.</li>
+                </ul>
+            </li>
+            <li><strong>Teaching Assistant of Intro. to Network Programming</strong> [<a href="https://people.cs.nycu.edu.tw/~shieyuan/course/networkProgramming/2021/" target="_blank">Syllabus</a>], National Yang Ming Chiao Tung University, 2022
+                <ul>
+                    <li>Assisted students in understanding network programming concepts and completing assignments.</li>
+                    <li>Conducted lab sessions and provided one-on-one guidance on socket programming and protocols.</li>
+                </ul>
+            </li>
+            <li><strong>Teaching Assistant of Machine Learning for Networking</strong> [<a href="https://people.cs.nycu.edu.tw/~shieyuan/course/MLnetwork/2022/" target="_blank">Syllabus</a>], National Yang Ming Chiao Tung University, 2022
+                <ul>
+                    <li>Supported the professor by preparing teaching materials on ML algorithms for networking applications.</li>
+                    <li>Evaluated student projects and provided constructive feedback on ML model implementations.</li>
+                </ul>
+            </li>
+            <li><strong>Software Engineer Contractor</strong>, DBS Bank, 2020-2021
+                <ul>
+                    <li>Researched in real-time speech and facial emotion detection for fraud detection applications.</li>
+                    <li>Built a Python-based data collection tool utilizing Selenium and Pandas to automate recruitment processes for 30+ engineers.</li>
+                    <li>Developed a chatbot using Flask and PostgreSQL for automated phone dialing via Twilio, improving customer support efficiency.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Competition Experience -->
+    <section>
+        <h2>Competitions</h2>
+        <ul>
+            <li><strong>Mei-Chu Hackathon</strong>, 2021 - 2nd Place</li>
+            <li><strong>AIS3 EOF CTF</strong>, 2021 - Rank 10 of Finalist</li>
+            <li><strong>ICPC Asia Taipei-Hsinchu Site Programming Contest</strong>, 2020 - Bronze Medal. My ICPC ID: [<a href="https://icpc.global/ICPCID/C300DHLH34B2" target="_blank">C300DHLH34B2</a>]</li>
+            <li><strong>Mei-Chu Hackathon</strong>, 2020 - 3rd Place [<a href="https://github.com/taipeiyuka/line-liff-4FUN" target="_blank">GitHub Repo</a>]</li>
+            <li><strong>ICPC Asia Taiwan Online Programming Contest</strong>, 2020 - Honorable Mention</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>Coursework Projects</h2>
+        <ul>
+            <li><strong>Network System</strong> - Golang implementation of RAFT, a consensus alogrithm for distributed system.</li>
+            <li><strong>Parallel Computation</strong> - GeMM on CPU, GPU and a real supercomputer with vectorization, CUDA and MPI</li>
+            <li><strong>Natural Language Processing</strong> - Pretraining transformer-based decoder with multi-head attention and dropout layer to prevent overfitting.</li>
+            <li><strong>Recommender System</strong> - Python implementation of Latent-factor models, Bayesian Personalized Ranking and Word2Vec.</li>
+            <li><strong>Unsupervised Learning</strong> - Obtain 2D embedding of cities based on their distances using multidimensional scaling.</li>
+            <li><strong>Haskell Snake Game</strong> - A double player snake game programmed with functional programming language Haskell. [<a href="https://github.com/imgradually/Haskell-Snake-Game" target="_blank">GitHub Repo</a>]</li>
+            <li><strong>Multifunctional Aerial Gazer</strong> - Face tracking drone (DJI Tello EDU) using OpenCV, TensorFlow and MediaPipe
+              for face detection, head pose estimation and hand gesture recognition. [<a href="https://github.com/imgradually/Multifunctional-Aerial-Gazer" target="_blank">GitHub Repo</a>]</li>
+            <li><strong>SAT solver</strong> - C++ implementation of CDCL-based heuristic alogrithm to solve SAT (NP-complete) problem.</li>
+            <li><strong>Compiler</strong> -  It's implemented in lex, Bison, and C++ generates RISC-V assembly for a P program. [<a href="https://github.com/compiler-f19/" target="_blank">Course Github</a>]</li>
+          </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <span>Python</span>
+        <span>C/C++</span>
+        <span>MongoDB</span>
+        <span>Java</span>
+        <span>Haskell</span>
+        <span>Golang</span>
+        <span>SQL</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>P4</span>
+        <span>Selenium</span>
+        <span>OpenMPI</span>
+        <span>Kubernetes</span>
+        <span>Git</span>
+        <span>Spring Boot</span>
+        <span>Unity</span>
+        <span>Linux</span>
+        <span>Docker</span>
+        <span>Quiskit</span>
+        <span>Cuda</span>
+    </section>
+
+    <!-- Publications -->
+    <section>
+        <h2>Publications</h2>
+        <ul>
+            <li><strong>S.Y. Wang and N.E. Kuo. Using programmable p4 switches to reduce communication costs of parallel and distributed simulation.</strong>, IEEE Globecom, 2022. [<a href="https://ieeexplore.ieee.org/document/10001195" target="_blank">Link</a>]</li>
+            <li><strong>N.-E. Kuo, Y.-C. Chu, and R.-J. Chen. Quantum computation and shallow circuit experiment</strong>, Proceedings of the 37th Workshop on Combinatorial Mathematics and Computation Theory, 2020.</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Nai-En Kuo. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
